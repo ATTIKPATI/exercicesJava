@@ -35,6 +35,7 @@ public class Main {
             System.out.println("La Diagonale est "+                     c1.diagonale());
    */
 int choix;
+int i;
 Carre carre=new Carre();
 Rectangle rectangle=new Rectangle();
 int[] tab1 = new int[6];
@@ -86,6 +87,13 @@ do{
              break;
 
            }
+          for(int i=0; i<tab1; i++) {
+            tab1.carre[i] = ;
+          } 
+
+         for(int i=0; i<tab2; i++) {
+            tab2.rectangle[i] = ;
+          } 
 
      } while(choix!=5);
 
