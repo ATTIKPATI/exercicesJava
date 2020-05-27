@@ -1,0 +1,26 @@
+public class Professeur extends Personne{
+
+
+  
+    private int annee;
+
+     private Classe  classeProf;
+   
+           public Professeur(){
+          }
+          public Professeur(String nomComplet,
+               LocalDate dateNaiss,String tuteur,int annee ){
+            
+              super(nomComplet,dateNaiss)
+             
+             this.annee=annee;
+          }
+
+
+    @Override
+    public String affiche(){
+       return super.affiche()  
+                     +" Annee "+annee;
+    }
+
+}
