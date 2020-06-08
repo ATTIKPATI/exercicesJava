@@ -26,14 +26,26 @@ switch(choix){
         service.listerClasse();
         System.out.println("-----------------")
         break;
-    case 2:
+    case 3:
         Sytem.out.println("------------------")
         service.inscrireEtudiant();
         System.out.println("-----------------")
         break;
-    case 2:
+    case 4:
         Sytem.out.println("------------------")
         service.listerEtudiant();
+        System.out.println("-----------------")
+        break;
+    
+    case 5:
+        Sytem.out.println("------------------")
+        service.affecterProfesseur();
+        System.out.println("-----------------")
+        break;
+   
+    case 6:
+        Sytem.out.println("------------------")
+        service.listerProfesseur();
         System.out.println("-----------------")
         break;
 }}
