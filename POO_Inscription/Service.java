@@ -51,7 +51,7 @@ public class Service {
 
     }
 
-    public void listerEudiantParClasse(){
+    public void listerEtudiantParClasse(){
        
         for(int i=0;i<nbreEtudiant;i++){
             System.out.println(tabclasse[i].affiche());
@@ -59,6 +59,26 @@ public class Service {
         
         
     }
+
+    public void affecterProfesseur(Professeur prof){
+        
+            tabPersonne[nbreDePersonne]=Personne;
+            nbreDePersonne++;
+        
+        
+    }
+
+    public void listerProfesseur(Professeur prof){
+        
+        for(int i=0;i<nbreDePersonne;i++){
+            System.out.println(tabPersonnes[i]prof.affiche());
+        }
+        
+        
+        
+    }
+
+
 
     //Uc 
 
